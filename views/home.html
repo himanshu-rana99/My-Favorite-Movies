@@ -1,0 +1,471 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/public/css/styles.min.css"> 
+        
+        <title>
+            Favorite Movies
+        </title>
+        
+    </head>
+
+    <body>
+
+        <!-- nav bar and cards -->
+        <div class="container">
+            <div class="about">
+                <h1>My Ten Favorite Movies</h1>
+            </div>
+            
+            <div class="row">
+                <div class="col-12 col-md-2 navcol">
+                    <nav class="navbar" id="nav-list">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#lady-bird">Lady Bird</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#knives-out">Knives Out</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#midsommar">Midsommar</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#call-me-by-your-name">Call Me By Your Name</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#the-grand-budapest-hotel">The Grand Budapest Hotel</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#hereditary">Hereditary</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#moonlight">Moonlight</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#the-wolf-of-wall-street">The Wolf of Wall Street</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#parasite">Parasite</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#the-hunger-games">The Hunger Games</a>
+                          </li>
+                        </ul>
+                      </nav>
+                </div>
+
+                <!-- https://getbootstrap.com/docs/4.0/components/card/ -->
+                <div class="col-12 col-md-10">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4 col-lg-3" data-spy="scroll" data-target="#nav-list">
+                            <div class="card" id="lady-bird">
+                                <img class="card-img-top" src="/public/images/lady-bird.jpg" alt="movie poster">
+                                <div class="card-body">
+                                    <div class="movie-title">Lady Bird</div>
+                                    <p class="card-text">A coming-of-age story of a high school senior and her strained relationship with her mother.</p>
+                                    <div class="aLinkDiv">
+                                        <a href="#movie1" role= "button" class="btn btn-primary" data-toggle="modal">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-4 col-lg-3">
+                            <div class="card" id="knives-out">
+                                <img class="card-img-top" src="/public/images/knives-out.jpg" alt="movie poster">
+                                <div class="card-body">
+                                    <div class="movie-title">Knives Out</div>
+                                    <p class="card-text">A modern whodunit, the film follows a master detective investigating the patriarch's death after a family gathering gone awry. </p>
+                                    <div class="aLinkDiv">
+                                        <a href="#movie2" role= "button" class="btn btn-primary" data-toggle="modal">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-4 col-lg-3">
+                            <div class="card" id="midsommar">
+                                <img class="card-img-top" src="/public/images/midsommar.jpg" alt="movie poster">
+                                <div class="card-body">
+                                    <div class="movie-title">Midsommar</div>
+                                    <p class="card-text">It follows a group of friends who travel to Sweden for a festival that occurs once every 90 years, only to find themselves in the clutches of a pagan cult.</p>
+                                    <div class="aLinkDiv">
+                                        <a href="#movie3" role= "button" class="btn btn-primary" data-toggle="modal">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-4 col-lg-3">
+                            <div class="card" id="call-me-by-your-name">
+                                <img class="card-img-top" src="/public/images/cmbyn.jpg" alt="movie poster">
+                                <div class="card-body">
+                                    <div class="movie-title">Call Me By Your Name</div>
+                                    <p class="card-text">Chronicles the romantic relationship between a 17-year-old, Elio, and Oliver, a 24-year-old graduate-student assistant to Elio's father.</p>
+                                    <div class="aLinkDiv">
+                                        <a href="#movie4" role= "button" class="btn btn-primary" data-toggle="modal">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-4 col-lg-3">
+                            <div class="card" id="the-grand-budapest-hotel">
+                                <img class="card-img-top" src="/public/images/grand-budapest-hotel.jpg" alt="movie poster">
+                                <div class="card-body">
+                                    <div class="movie-title">The Grand Budapest Hotel</div>
+                                    <p class="card-text">Monsieur Gustave H., famed concierge of a mountainside resort is framed for the murder of a wealthy dowager. He embarks on a a quest for fortune</p>
+                                    <div class="aLinkDiv">
+                                        <a href="#movie5" role= "button" class="btn btn-primary" data-toggle="modal">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-4 col-lg-3">
+                            <div class="card" id="hereditary">
+                                <img class="card-img-top" src="/public/images/hereditary.jpg" alt="movie poster">
+                                <div class="card-body">
+                                    <div class="movie-title">Hereditary</div>
+                                    <p class="card-text">A family is haunted by a mysterious presence after the death of their secretive grandmother.</p>
+                                    <div class="aLinkDiv">
+                                        <a href="#movie6" role= "button" class="btn btn-primary" data-toggle="modal">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-4 col-lg-3">
+                            <div class="card" id="moonlight">
+                                <img class="card-img-top" src="/public/images/moonlight.jpg" alt="movie poster">
+                                <div class="card-body">
+                                    <div class="movie-title">Moonlight</div>
+                                    <p class="card-text">It explores the difficulties the main character faces with his sexuality and identity, including the physical and emotional abuse he endures growing up.</p>
+                                    <div class="aLinkDiv">
+                                        <a href="#movie7" role= "button" class="btn btn-primary" data-toggle="modal">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-4 col-lg-3">
+                            <div class="card" id="the-wolf-of-wall-street">
+                                <img class="card-img-top" src="/public/images/wolf-of-wall-st.jpg" alt="movie poster">
+                                <div class="card-body">
+                                    <div class="movie-title">The Wolf of Wall Street</div>
+                                    <p class="card-text">It recounts Belfort's perspective on his career as a stockbroker in New York City and how his firm, Stratton Oakmont, engaged in rampant corruption and fraud on Wall Street.</p>
+                                    <div class="aLinkDiv">
+                                        <a href="#movie8" role= "button" class="btn btn-primary" data-toggle="modal">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-4 col-lg-3">
+                            <div class="card" id="parasite">
+                                <img class="card-img-top" src="/public/images/parasite.jpg" alt="movie poster">
+                                <div class="card-body">
+                                    <div class="movie-title">Parasite</div>
+                                    <p class="card-text">It follows the members of a poor family who scheme to become employed by a wealthy family by infiltrating their household and posing as unrelated, highly qualified individuals.</p>
+                                    <div class="aLinkDiv">
+                                        <a href="#movie9" role= "button" class="btn btn-primary" data-toggle="modal">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-12 col-md-4 col-lg-3">
+                            <div class="card" id="the-hunger-games">
+                                <img class="card-img-top" src="/public/images/hunger-games.jpg" alt="movie poster">
+                                <div class="card-body">
+                                    <div class="movie-title">The Hunger Games</div>
+                                    <p class="card-text">The story takes place in a dystopian post-apocalyptic future in the nation of Panem, where "tributes" and forced to compete in The Hunger Games, an elaborate televised fight to the death.</p>
+                                    <div class="aLinkDiv">
+                                        <a href="#movie10" role= "button" class="btn btn-primary" data-toggle="modal">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- modals -->
+        <!-- https://getbootstrap.com/docs/4.0/components/modal/#live-demo -->
+        <div class="modal fade" id="movie1" tabindex="-1" role="dialog" aria-labelledby="modal-lady-bird" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div class="modal-title" id="modal-lady-bird">Lady Bird</div>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Plot: In 2002, Christine McPherson is a senior at a Catholic high school[a] in Sacramento, California. 
+                  She gives herself the name "Lady Bird" and longs to attend a prestigious college in "a city with culture" 
+                  somewhere on the east coast, despite her family's financial struggles. Her mother, Marion, often tells her that 
+                  she is ungrateful for what she has. Lady Bird and her best friend, Julie, join their school theater program, 
+                  where Lady Bird develops a crush on classmate Danny O'Neill. This grows into a romantic relationship, and Lady Bird 
+                  disappoints Marion by spending her last Thanksgiving before graduation with Danny's wealthy family instead of her own.
+                  After the opening night of "Merrily We Roll Along", their relationship ends when Lady Bird and Julie discover Danny kissing 
+                  another boy in a bathroom stall.
+                  Year released: 2017 
+                  Rating: 4/5
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                  </div>
+              </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="movie2" tabindex="-1" role="dialog" aria-labelledby="modal-knives-out" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title" id="modal-knives-out">Knives Out</div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Plot: Wealthy mystery novelist Harlan Thrombey invites his family to his Massachusetts mansion for his 85th 
+                birthday party. The next morning, Harlan's housekeeper Fran finds him dead, with his throat slit. The police
+                believe it was suicide, but an anonymous party pays private eye Benoit Blanc to investigate.
+                Year Released: 2019
+                Rating: 5/5
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="modal fade" id="movie3" tabindex="-1" role="dialog" aria-labelledby="modal-midsommar" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title" id="modal-midsommar">Midsommar</div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Plot: Psychology student Dani Ardor is traumatized after her sister Terri kills herself 
+                and their parents by filling their home with carbon monoxide. The incident strains Dani's 
+                relationship with her emotionally distant boyfriend, cultural anthropology student Christian Hughes.
+                 She later learns that Christian and his friends Mark and Josh have been invited by their mutual 
+                 Swedish friend Pelle to attend a midsummer celebration at Pelle's ancestral commune, the Hårga, in 
+                 Hälsingland. The celebration occurs only once every 90 years and Josh, also an anthropology student, 
+                 wants to write his thesis on it. Christian had hidden the trip from Dani, wanting to break up with her 
+                 before leaving, but invites her along after she finds out about it.
+                Year Released: 2019
+                Rating: 3.5/5             
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class="modal fade" id="movie4" tabindex="-1" role="dialog" aria-labelledby="modal-cmbyn" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title" id="modal-cmbyn">Call Me By Your Name</div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Plot:It is the summer of 1983. Elio, a 17-year-old Jewish-Italian, lives with his parents in rural Northern Italy. 
+                Elio's father, a professor of archaeology, invites a 24-year-old graduate student, Oliver, who is also Jewish, to live 
+                with the family over the summer and help with his academic paperwork. Elio, an introspective bibliophile and a talented 
+                musician, initially thinks he has little in common with Oliver, who has a carefree and exuberant personality. Elio resents
+                 having to give up his bedroom to Oliver for the duration of his stay, and spends much of the summer reading, playing piano, 
+                 and hanging out with his childhood friend, Marzia. Meanwhile, Oliver admits being attracted to one of the local girls, much 
+                 to Elio's annoyance.
+                Year Released: 2017
+                Rating: 4/5
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class="modal fade" id="movie5" tabindex="-1" role="dialog" aria-labelledby="modal-grand-budapest-hotel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title" id="modal-grand-budapest-hotel">The Grand Budapest Hotel</div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Plot: A young girl visits the shrine of a renowned writer, known simply as "Author", carrying a copy of his most-cherished
+                 novel: The Grand Budapest Hotel. The author begins narrating as the film explores his history, prefacing with a 1985 excerpt 
+                 reading before flashing back to his 1968 stay at the once-grand, now-drab hotel. There he meets its owner, Zero Moustafa, who 
+                 invites him to dinner to hear his rags to riches story.
+                Year Released: 2014             
+                Rating: 3/5
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class="modal fade" id="movie6" tabindex="-1" role="dialog" aria-labelledby="modal-hereditary" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title" id="modal-hereditary">Hereditary</div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Plot: Annie Graham is a miniatures artist who lives in Utah with her husband, Steve; their 16-year-old son, Peter; 
+                and their eccentric and reserved 13-year-old daughter, Charlie. At the funeral of her secretive mother, Ellen Leigh,
+                 Annie delivers a eulogy explaining their fraught relationship and her mother's extremely private life. A week later, 
+                 Steve is informed that Ellen's grave has been desecrated, while Annie thinks she sees an apparition of Ellen in her workshop. 
+                 At a support group for the bereaved, Annie reveals that the rest of her family suffered from mental illness that resulted in 
+                 their deaths and how Ellen was a significant figure in raising Charlie.
+                Year Released: 2018
+                Rating: 4/5
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class="modal fade" id="movie7" tabindex="-1" role="dialog" aria-labelledby="modal-moonlight" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title" id="modal-moonlight">Moonlight</div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Plot: In Liberty City, Miami at the height of the crack epidemic, Afro-Cuban drug dealer Juan finds Chiron, 
+                a withdrawn child who goes by the nickname "Little," hiding from a group of bullies in a crackhouse. Juan 
+                lets Chiron spend the night with him and his girlfriend Teresa before returning Chiron to his mother Paula,
+                 who revokes his TV privileges for worrying her. Chiron continues to spend time with Juan, who teaches him 
+                 how to swim and mentors him, telling him he can choose his own path in life.
+                Year Released: 2016
+                 
+                Rating: 5/5
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class="modal fade" id="movie8" tabindex="-1" role="dialog" aria-labelledby="modal-wolf-of-wall-street" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title" id="modal-wolf-of-wall-street">The Wolf of Wall Street</div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Plot: In 1987, Jordan Belfort lands a job as a Wall Street stockbroker for L.F. Rothschild, employed under Mark Hanna, 
+                who quickly entices him with the sex- and drug-fueled stockbroker culture and passes on his idea that a broker's only goal 
+                is to make money for himself. Jordan loses his job following Black Monday, the largest one-day stock market drop in history, 
+                and takes a job at a boiler room brokerage firm on Long Island that specializes in penny stocks. Thanks to his aggressive pitching 
+                style and the high commissions, Jordan makes a small fortune.
+
+                Year Released: 2013                 
+                Rating: 3.5/5
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class="modal fade" id="movie9" tabindex="-1" role="dialog" aria-labelledby="modal-parasite" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title" id="modal-parasite">Parasite</div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Plot: The Kim family—father Ki-taek, mother Chung-sook, daughter Ki-jung and son 
+                Ki-woo—live in a small semi-basement apartment (banjiha),[9] have low-paying temporary 
+                jobs as pizza box folders, and struggle to make ends meet.[10] University student Min-hyuk,
+                 a friend of Ki-woo's, gives the family a scholar's rock meant to promise wealth. Leaving to 
+                 study abroad, he suggests that Ki-woo take over his job as an English tutor for the daughter 
+                 of the wealthy Park family, Da-hye. Ki-woo poses as a university student and is hired by the Parks.
+
+                Year Released: 2019
+                Rating: 4.5/5
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class="modal fade" id="movie10" tabindex="-1" role="dialog" aria-labelledby="modal-hunger-games" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title" id="modal-hunger-games">The Hunger Games</div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Plot: Sometime in the future, the world experienced a cataclysmic ecological disaster 
+                resulting in rising sea levels, killing most of Earth's population. The former North 
+                America remained as the only habitable landmass on the planet, thus forming the nation 
+                of Panem. The Capitol (located somewhere in the Rockies) divided Panem into 12 districts 
+                under an authoritarian dictatorship. This causes the 12 districts to rebel, which ultimately failed.
+
+                Year Released: 2012
+                Rating: 5/5
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+        </div>
+
+
+
+
+
+        
+        
+
+
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="/public/js/vendor.min.js"></script>
+
+    </body>
+</html>
